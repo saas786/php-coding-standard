@@ -3,7 +3,7 @@
     "type": "library",
     "description": "",
     "require": {
-        "slevomat/coding-standard": "^5.0",
+        "slevomat/coding-standard": "^4.0",
         "phpmd/phpmd": "^2.6"
     }
 }
