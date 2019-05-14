@@ -1,6 +1,7 @@
 {
     "name": "firstvet/php-coding-standard",
     "type": "library",
+    "description": "",
     "require": {
         "slevomat/coding-standard": "^5.0",
         "phpmd/phpmd": "^2.6"
