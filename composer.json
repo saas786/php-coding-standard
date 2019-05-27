@@ -3,12 +3,17 @@
     "type": "library",
     "description": "",
     "require": {
-        "slevomat/coding-standard": "^4.0",
-        "phpmd/phpmd": "^2.6",
+        "friendsofphp/php-cs-fixer": "^2.15",
         "jakub-onderka/php-parallel-lint": "^1.0",
-        "sebastian/phpcpd": "^4.1"
+        "phpmd/phpmd": "^2.6",
+        "sebastian/phpcpd": "^4.1",
+        "slevomat/coding-standard": "^4.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
     }
 }
