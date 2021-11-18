@@ -47,7 +47,7 @@
     <rule ref="Generic.WhiteSpace.LanguageConstructSpacing"/>
     <rule ref="Generic.WhiteSpace.ScopeIndent">
         <properties>
-            <property name="indent" value="2"/>
+            <property name="indent" value="4"/>
             <property name="tabIndent" value="false"/>
         </properties>
     </rule>
