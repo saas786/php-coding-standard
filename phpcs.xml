@@ -149,6 +149,7 @@
         <exclude name="Squiz.Commenting.FunctionComment.InvalidThrows"/><!-- @throws are forbidden -->
         <exclude name="Squiz.Commenting.FunctionComment.Missing"/><!-- PHPDoc is not required on all methods -->
         <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/><!-- comments are not required for @param -->
+        <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag"/><!-- tags are not required for @param -->
         <exclude name="Squiz.Commenting.FunctionComment.MissingReturn"/><!-- void type is not used -->
         <exclude name="Squiz.Commenting.FunctionComment.ParamCommentFullStop"/><!-- comments don't have to be sentences -->
         <exclude name="Squiz.Commenting.FunctionComment.ParamCommentNotCapital"/><!-- comments don't have to be sentences -->
