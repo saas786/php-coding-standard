@@ -168,9 +168,6 @@
     <rule ref="Squiz.Commenting.FunctionComment.InvalidNoReturn">
         <message>Function has no return statement, but annotation @return is present</message>
     </rule>
-    <rule ref="Squiz.Commenting.FunctionComment.MissingParamTag">
-        <message>@param annotation for parameter "%s" missing</message>
-    </rule>
     <rule ref="Squiz.ControlStructures.ControlSignature"/>
     <rule ref="Squiz.ControlStructures.ForEachLoopDeclaration"/>
     <rule ref="Squiz.ControlStructures.ForLoopDeclaration"/>
