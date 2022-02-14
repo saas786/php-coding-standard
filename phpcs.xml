@@ -8,15 +8,15 @@
     </rule>
 <!--    <rule ref="Generic.Arrays.DisallowLongArraySyntax.Found"/>-->
 <!--    <rule ref="Generic.Classes.DuplicateClassName"/>-->
-<!--    <rule ref="Generic.CodeAnalysis.EmptyStatement">-->
-<!--        <exclude name="Generic.CodeAnalysis.EmptyStatement.DetectedCatch"/>&lt;!&ndash; empty catch statements are allowed &ndash;&gt;-->
-<!--    </rule>-->
+    <rule ref="Generic.CodeAnalysis.EmptyStatement">
+        <exclude name="Generic.CodeAnalysis.EmptyStatement.DetectedCatch"/><!-- empty catch statements are allowed -->
+    </rule>
 <!--    <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop"/>-->
 <!--    <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement"/>-->
 <!--    <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"/>-->
     <rule ref="Generic.ControlStructures.InlineControlStructure"/>
 <!--    <rule ref="Generic.Files.ByteOrderMark"/>-->
-<!--    <rule ref="Generic.Files.InlineHTML"/>-->
+    <rule ref="Generic.Files.InlineHTML"/>
 <!--    <rule ref="Generic.Files.LineEndings">-->
 <!--        <properties>-->
 <!--            <property name="eolChar" value="\n"/>-->
@@ -26,19 +26,19 @@
     <rule ref="Generic.Formatting.SpaceAfterCast"/>
     <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
 <!--    <rule ref="Generic.NamingConventions.ConstructorName"/>-->
-<!--    <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>-->
-<!--    <rule ref="Generic.PHP.CharacterBeforePHPOpeningTag"/>-->
+    <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
+    <rule ref="Generic.PHP.CharacterBeforePHPOpeningTag"/>
 <!--    <rule ref="Generic.PHP.DeprecatedFunctions"/>-->
 <!--    <rule ref="Generic.PHP.DisallowShortOpenTag"/>-->
 <!--    <rule ref="Generic.PHP.ForbiddenFunctions"/>-->
     <rule ref="Generic.PHP.LowerCaseConstant"/>
 <!--    <rule ref="Generic.PHP.LowerCaseKeyword"/>-->
 <!--    <rule ref="Generic.PHP.LowerCaseType"/>-->
-<!--    <rule ref="Generic.Strings.UnnecessaryStringConcat">-->
-<!--        <properties>-->
-<!--            <property name="allowMultiline" value="true"/>-->
-<!--        </properties>-->
-<!--    </rule>-->
+    <rule ref="Generic.Strings.UnnecessaryStringConcat">
+        <properties>
+            <property name="allowMultiline" value="true"/>
+        </properties>
+    </rule>
 <!--    <rule ref="Generic.WhiteSpace.ArbitraryParenthesesSpacing">-->
 <!--        <properties>-->
 <!--            <property name="ignoreNewlines" value="true"/>-->
@@ -53,12 +53,12 @@
     </rule>
     <rule ref="PEAR.Classes.ClassDeclaration"/>
 <!--    <rule ref="PEAR.Commenting.InlineComment"/>-->
-<!--    <rule ref="PEAR.Formatting.MultiLineAssignment"/>-->
+    <rule ref="PEAR.Formatting.MultiLineAssignment"/>
     <rule ref="PEAR.WhiteSpace.ObjectOperatorIndent"/>
-<!--    <rule ref="PSR1.Classes.ClassDeclaration"/>-->
-<!--    <rule ref="PSR1.Files.SideEffects"/>-->
+    <rule ref="PSR1.Classes.ClassDeclaration"/>
+    <rule ref="PSR1.Files.SideEffects"/>
 <!--    <rule ref="PSR1.Methods.CamelCapsMethodName"/>-->
-<!--    <rule ref="PSR2.Classes.PropertyDeclaration"/>-->
+    <rule ref="PSR2.Classes.PropertyDeclaration"/>
     <rule ref="PSR2.ControlStructures.ControlStructureSpacing">
         <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace"/><!-- we want to put first expression of multiline condition on next line -->
     </rule>
@@ -76,7 +76,7 @@
     <rule ref="PSR2.Methods.MethodDeclaration"/>
     <rule ref="PSR2.Namespaces.UseDeclaration"/>
     <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma"/>
-<!--    <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>-->
+    <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>
     <rule ref="SlevomatCodingStandard.Commenting.EmptyComment"/>
 <!--    <rule ref="SlevomatCodingStandard.Commenting.InlineDocCommentDeclaration"/>-->
     <rule ref="SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment"/>
@@ -91,18 +91,18 @@
 <!--    <rule ref="SlevomatCodingStandard.Namespaces.MultipleUsesPerLine"/>-->
 <!--    <rule ref="SlevomatCodingStandard.Namespaces.NamespaceDeclaration"/>-->
     <rule ref="SlevomatCodingStandard.Namespaces.NamespaceSpacing"/>
-<!--    <rule ref="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly">-->
-<!--        <exclude name="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly.ReferenceViaFullyQualifiedName" />-->
-<!--        <properties>-->
-<!--            <property name="allowFullyQualifiedExceptions" value="true"/>-->
-<!--            <property name="allowPartialUses" value="false"/>-->
-<!--            <property name="fullyQualifiedKeywords" type="array">-->
-<!--                <element value="T_EXTENDS"/>-->
-<!--                <element value="T_IMPLEMENTS"/>-->
-<!--                <element value="T_USE"/>-->
-<!--            </property>-->
-<!--        </properties>-->
-<!--    </rule>-->
+    <rule ref="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly">
+        <exclude name="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly.ReferenceViaFullyQualifiedName" />
+        <properties>
+            <property name="allowFullyQualifiedExceptions" value="true"/>
+            <property name="allowPartialUses" value="false"/>
+            <property name="fullyQualifiedKeywords" type="array">
+                <element value="T_EXTENDS"/>
+                <element value="T_IMPLEMENTS"/>
+                <element value="T_USE"/>
+            </property>
+        </properties>
+    </rule>
 <!--    <rule ref="SlevomatCodingStandard.Namespaces.RequireOneNamespaceInFile"/>-->
 <!--    <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">-->
 <!--        <properties>-->
@@ -134,33 +134,33 @@
 <!--        <exclude name="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>&lt;!&ndash; multiple values can be written on a single line &ndash;&gt;-->
 <!--        <exclude name="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/>&lt;!&ndash; we don't want spacing with alignment &ndash;&gt;-->
 <!--    </rule>-->
-<!--    <rule ref="Squiz.Classes.ClassFileName"/>-->
+    <rule ref="Squiz.Classes.ClassFileName"/>
     <rule ref="Squiz.Classes.SelfMemberReference"/>
 <!--    <rule ref="Squiz.Classes.ValidClassName"/>-->
     <rule ref="Squiz.Commenting.DocCommentAlignment">
         <exclude name="Squiz.Commenting.DocCommentAlignment.SpaceAfterStar"/><!-- space needed for indented annotations -->
     </rule>
-<!--    <rule ref="Squiz.Commenting.EmptyCatchComment"/>-->
-<!--    <rule ref="Squiz.Commenting.FunctionComment">-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.EmptyThrows"/>&lt;!&ndash; @throws are forbidden &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.IncorrectParamVarName"/>&lt;!&ndash; requires long boolean and integer parameters &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.IncorrectTypeHint"/>&lt;!&ndash; collection syntax such as string[] is not supported &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.InvalidReturn"/>&lt;!&ndash; enforces incorrect types &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.InvalidReturnNotVoid"/>&lt;!&ndash; is not able to detect return types such as string|null as correct &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.InvalidThrows"/>&lt;!&ndash; @throws are forbidden &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.Missing"/>&lt;!&ndash; PHPDoc is not required on all methods &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>&lt;!&ndash; comments are not required for @param &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag"/>&lt;!&ndash; tags are not required for @param &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.MissingReturn"/>&lt;!&ndash; void type is not used &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.ParamCommentFullStop"/>&lt;!&ndash; comments don't have to be sentences &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.ParamCommentNotCapital"/>&lt;!&ndash; comments don't have to be sentences &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.ScalarTypeHintMissing"/>&lt;!&ndash; works only for code requiring PHP 7 code or better &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamName"/>&lt;!&ndash; we don't want spacing with alignment &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType"/>&lt;!&ndash; we don't want spacing with alignment &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.ThrowsNoFullStop"/>&lt;!&ndash; @throws are forbidden &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.ThrowsNotCapital"/>&lt;!&ndash; @throws are forbidden &ndash;&gt;-->
-<!--        <exclude name="Squiz.Commenting.FunctionComment.TypeHintMissing"/>&lt;!&ndash; doesn't work with self as typehint &ndash;&gt;-->
-<!--    </rule>-->
+    <rule ref="Squiz.Commenting.EmptyCatchComment"/>
+    <rule ref="Squiz.Commenting.FunctionComment">
+        <exclude name="Squiz.Commenting.FunctionComment.EmptyThrows"/><!-- @throws are forbidden -->
+        <exclude name="Squiz.Commenting.FunctionComment.IncorrectParamVarName"/><!-- requires long boolean and integer parameters -->
+        <exclude name="Squiz.Commenting.FunctionComment.IncorrectTypeHint"/><!-- collection syntax such as string[] is not supported -->
+        <exclude name="Squiz.Commenting.FunctionComment.InvalidReturn"/><!-- enforces incorrect types -->
+        <exclude name="Squiz.Commenting.FunctionComment.InvalidReturnNotVoid"/><!-- is not able to detect return types such as string|null as correct -->
+        <exclude name="Squiz.Commenting.FunctionComment.InvalidThrows"/><!-- @throws are forbidden -->
+        <exclude name="Squiz.Commenting.FunctionComment.Missing"/><!-- PHPDoc is not required on all methods -->
+        <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/><!-- comments are not required for @param -->
+        <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag"/><!-- tags are not required for @param -->
+        <exclude name="Squiz.Commenting.FunctionComment.MissingReturn"/><!-- void type is not used -->
+        <exclude name="Squiz.Commenting.FunctionComment.ParamCommentFullStop"/><!-- comments don't have to be sentences -->
+        <exclude name="Squiz.Commenting.FunctionComment.ParamCommentNotCapital"/><!-- comments don't have to be sentences -->
+        <exclude name="Squiz.Commenting.FunctionComment.ScalarTypeHintMissing"/><!-- works only for code requiring PHP 7 code or better -->
+        <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamName"/><!-- we don't want spacing with alignment -->
+        <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType"/><!-- we don't want spacing with alignment -->
+        <exclude name="Squiz.Commenting.FunctionComment.ThrowsNoFullStop"/><!-- @throws are forbidden -->
+        <exclude name="Squiz.Commenting.FunctionComment.ThrowsNotCapital"/><!-- @throws are forbidden -->
+        <exclude name="Squiz.Commenting.FunctionComment.TypeHintMissing"/><!-- doesn't work with self as typehint -->
+    </rule>
 <!--    <rule ref="Squiz.Commenting.FunctionComment.DuplicateReturn">-->
 <!--        <message>Only 1 @return annotation is allowed in a function comment</message>-->
 <!--    </rule>-->
@@ -173,25 +173,25 @@
     <rule ref="Squiz.ControlStructures.ControlSignature"/>
 <!--    <rule ref="Squiz.ControlStructures.ForEachLoopDeclaration"/>-->
     <rule ref="Squiz.ControlStructures.ForLoopDeclaration"/>
-<!--    <rule ref="Squiz.Functions.FunctionDeclaration"/>-->
+    <rule ref="Squiz.Functions.FunctionDeclaration"/>
     <rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing">
         <properties>
             <property name="equalsSpacing" value="1"/>
         </properties>
         <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterHint"/><!-- already checked by SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing.MultipleSpacesBetweenTypeHintAndParameter -->
     </rule>
-<!--    <rule ref="Squiz.Functions.GlobalFunction"/>-->
+    <rule ref="Squiz.Functions.GlobalFunction"/>
     <rule ref="Squiz.Functions.MultiLineFunctionDeclaration" />
 <!--    <rule ref="Squiz.Operators.IncrementDecrementUsage">-->
 <!--        <exclude name="Squiz.Operators.IncrementDecrementUsage.NoBrackets"/>&lt;!&ndash; afaik there is no need for brackets &ndash;&gt;-->
 <!--    </rule>-->
-<!--    <rule ref="Squiz.Operators.ValidLogicalOperators"/>-->
+    <rule ref="Squiz.Operators.ValidLogicalOperators"/>
 <!--    <rule ref="Squiz.PHP.GlobalKeyword"/>-->
 <!--    <rule ref="Squiz.PHP.Heredoc"/>-->
 <!--    <rule ref="Squiz.PHP.InnerFunctions"/>-->
     <rule ref="Squiz.PHP.LowercasePHPFunctions"/>
-<!--    <rule ref="Squiz.PHP.NonExecutableCode"/>-->
-<!--    <rule ref="Squiz.Scope.MethodScope"/>-->
+    <rule ref="Squiz.PHP.NonExecutableCode"/>
+    <rule ref="Squiz.Scope.MethodScope"/>
 <!--    <rule ref="Squiz.Scope.StaticThisUsage"/>-->
     <rule ref="Squiz.Strings.ConcatenationSpacing">
         <properties>
