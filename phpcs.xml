@@ -16,7 +16,9 @@
 <!--    <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"/>-->
     <rule ref="Generic.ControlStructures.InlineControlStructure"/>
 <!--    <rule ref="Generic.Files.ByteOrderMark"/>-->
-    <rule ref="Generic.Files.InlineHTML"/>
+    <rule ref="Generic.Files.InlineHTML">
+        <exclude-pattern>*.blade.php</exclude-pattern>
+    </rule>
 <!--    <rule ref="Generic.Files.LineEndings">-->
 <!--        <properties>-->
 <!--            <property name="eolChar" value="\n"/>-->
