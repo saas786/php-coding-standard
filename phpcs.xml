@@ -29,7 +29,9 @@
     <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
 <!--    <rule ref="Generic.NamingConventions.ConstructorName"/>-->
     <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
-    <rule ref="Generic.PHP.CharacterBeforePHPOpeningTag"/>
+    <rule ref="Generic.PHP.CharacterBeforePHPOpeningTag">
+        <exclude-pattern>*.blade.php</exclude-pattern>
+    </rule>
 <!--    <rule ref="Generic.PHP.DeprecatedFunctions"/>-->
 <!--    <rule ref="Generic.PHP.DisallowShortOpenTag"/>-->
 <!--    <rule ref="Generic.PHP.ForbiddenFunctions"/>-->
